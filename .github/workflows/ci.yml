@@ -1,0 +1,57 @@
+# .github/workflows/ci.yml
+# COMP3104 Group Assignment: CI for the group repo.
+# Starts from the sample workflow in the brief, then adds one real check:
+# every .txt file must sit in the repo root and follow STUDENTID_{gb,devops,sdlc}.txt.
+# Runs on every member branch push AND on PRs into main, so problems show up before merging.
+name: CI
+run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+
+on:
+  push:          # any branch, so each STUDENTID-Name branch gets a green/red check
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      # The brief's sample steps, kept as-is (the marker looks for these).
+      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
+      - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
+      - name: Check out repository code
+        uses: actions/checkout@v4
+      - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
+
+      # Our addition: catch the two easiest ways to lose marks on "Commits and File Creation".
+      - name: Check file names and layout
+        run: |
+          set -euo pipefail
+          status=0
+
+          # Rule 1: no .txt files inside folders (brief: "Don't create any folder").
+          nested=$(find . -mindepth 2 -name '*.txt' -not -path './.git/*' || true)
+          if [ -n "$nested" ]; then
+            echo "::error::.txt files must be in the repo root, not in folders:"
+            echo "$nested"
+            status=1
+          fi
+
+          # Rule 2: every root .txt must be STUDENTID_gb.txt / _devops.txt / _sdlc.txt.
+          for txtFile in ./*.txt; do
+            [ -e "$txtFile" ] || continue   # no .txt files yet: nothing to check
+            fileName=$(basename "$txtFile")
+            if [[ ! "$fileName" =~ ^[0-9]+_(gb|devops|sdlc)\.txt$ ]]; then
+              echo "::error file=$fileName::Bad name. Use STUDENTID_gb.txt, STUDENTID_devops.txt or STUDENTID_sdlc.txt"
+              status=1
+            elif [ ! -s "$txtFile" ]; then
+              echo "::error file=$fileName::File is empty"
+              status=1
+            else
+              echo "✅ $fileName"
+            fi
+          done
+
+          exit $status
