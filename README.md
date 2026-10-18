@@ -43,3 +43,8 @@ Each member has their own branch named `STUDENTID-Name` (per-developer branching
 commit locally, push to their branch, and open a pull request into `main` using the template in
 `.github/PULL_REQUEST_TEMPLATE.md`. Before opening a PR, members merge the latest `main` into
 their branch and resolve any conflicts locally. `main` is only changed through pull requests.
+
+## Commit Message Conventions
+- Start with a verb: Add, Update, Fix, Remove
+- Say what changed and where, e.g. "Add campuses section to gb.txt"
+- One logical change per commit
