@@ -1,0 +1,11 @@
+COMP3104 - DevOps
+==================
+Written by: Ben Morrison - 101572409
+
+DevOps culture brings the cohesion of autonomous teams to fast paced, high-demanding environments.
+
+It can drastically reduce IT overhead. Remove manual tasks both of a mundane or complex nature. Enforce best security practices. Expedite product delivery. Improve communication and collaboration across teams.
+
+DevOps allows for engineers to optimize the environment that they are working in.
+
+Woo, let's go DevOps~! \o/
