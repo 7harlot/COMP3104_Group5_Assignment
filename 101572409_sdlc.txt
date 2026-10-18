@@ -1,0 +1,15 @@
+Software Development Life Cycle
+===============================
+Written by: Ben Morrison - 101572409
+
+Phases: Plan -> Analyze requirements -> design -> build -> test -> deploy -> maintain/monitor
+
+DevOps is development and operations working as one team, instead of developers handing finished code off to operators.
+DevOps covers SDLC in a whole loop, making phases a continuous cycle. Due to this, the culture of the project expands into shared ownership, small frequent changes, and fast feedback.
+
+Small, frequent changes mean less risk per release, and bugs are easier to find.
+Fast feedback tells you quickly when something broke, so you can roll back. Automated tests catch problems before the user sees them.
+
+Continuous Integration allows for every push to automatically be built and checked, so any broken code is caught early.
+Continuous Delivery means the code is always ready to release with a button press. 
+In this instance, our ci.yml runs on every push and PR; and fails if a .txt file is misnamed or empty. 
