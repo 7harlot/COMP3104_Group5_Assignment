@@ -9,3 +9,11 @@ It can drastically reduce IT overhead. Remove manual tasks both of a mundane or 
 DevOps allows for engineers to optimize the environment that they are working in.
 
 Woo, let's go DevOps~! \o/
+
+Within the scope of DevOps we have utilized:
+- Node
+- Git
+- BASH
+- CLI Text editors
+- GitHub Actions or Travis CI
+- Hosting Single Page Applications
