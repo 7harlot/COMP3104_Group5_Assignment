@@ -1,1 +1,15 @@
 101172332  - Munir Howlader
+
+Institution Overview:
+George Brown College of Applied Arts and Technology is a fully accredited public college of applied arts and technology 
+located in Toronto, Ontario, Canada.
+
+Key Campuses:
+- St. James Campus: Located in downtown Toronto, primarily hosting business, community services, and creative arts programs.
+- Casa Loma Campus: Situated at the edge of the Annex, known for technology, construction, and engineering programs.
+- Waterfront Campus: Located at Cherry Street, specializing in health sciences.
+
+Academic Focus:
+George Brown College is recognized for its career-focused education, offering a wide array of diplomas, 
+post-graduate certificates, and degree programs in fields such as Computer Programming and Analysis, 
+system design, and software development, closely connected with Toronto's tech industry.
