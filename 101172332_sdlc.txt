@@ -1,0 +1,17 @@
+101172332 Munir Howlader
+
+The Importance of Learning DevOps in the SDLC:
+
+1. Bridging the Silos:
+DevOps integrates development and operations. It fosters shared responsibility for product delivery and system reliability.
+
+2. Accelerating Time-to-Market:
+Automated CI/CD pipelines reduce manual bottlenecks. It enables faster feature and bug fix releases to production.
+
+3. Improving Software Quality and Stability:
+Automated testing and continuous monitoring catch defects early in the SDLC before they reach production. This can also result 
+in huge cost savings. 
+
+4. Scalability and Repeatability:
+Standardized configurations and build processes ensure consistent application behavior across all environments.
+

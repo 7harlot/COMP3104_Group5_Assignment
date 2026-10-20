@@ -1,0 +1,18 @@
+101172332- Munir Howlader. 
+
+Course Overview - COMP 3104 (DevOps):
+COMP 3104 is an advanced computing course focusing on bridging software development and IT operations through modern 
+practices and tools.
+
+Core Concepts and Topics:
+
+1. Version Control & Collaboration: Managing source code with Git and GitHub, applying branching strategies, 
+and resolving merge conflicts.
+
+2. Continuous Integration & Continuous Deployment (CI/CD): Automating build, testing, and deployment 
+pipelines using GitHub Actions, Travis CI or other similar services.
+
+3. Infrastructure & Automation: Ensuring repeatable deployments, automated testing, and system monitoring to 
+minimize human error.
+
+4. Collaboration Culture: Driving teamwork via code reviews, pull request workflows, and clear project documentation.

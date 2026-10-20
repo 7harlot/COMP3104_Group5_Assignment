@@ -4,9 +4,9 @@
 
 ## Group Members
 - **Leader:** Ben Morrison (101572409) - [GitHub](https://github.com/7harlot)
-- **Member 2:** FULL NAME (STUDENTID) - [GitHub](https://github.com/USERNAME)
+- **Member 2:** Munir Howlader (101172332) - [GitHub](https://github.com/USERNAME)
 - **Member 3:** FULL NAME (STUDENTID) - [GitHub](https://github.com/USERNAME)
-- **Member 4:** FULL NAME (STUDENTID) - [GitHub](https://github.com/USERNAME)
+
 <!-- Each member adds/edits THEIR OWN line, from their own branch, so it shows in their commit log. -->
 
 ## Project Description
