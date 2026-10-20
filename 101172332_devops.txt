@@ -6,13 +6,13 @@ practices and tools.
 
 Core Concepts and Topics:
 
-Version Control & Collaboration: Managing source code with Git and GitHub, applying branching strategies, 
+1. Version Control & Collaboration: Managing source code with Git and GitHub, applying branching strategies, 
 and resolving merge conflicts.
 
-Continuous Integration & Continuous Deployment (CI/CD): Automating build, testing, and deployment 
-pipelines using GitHub Actions or Travis CI.
+2. Continuous Integration & Continuous Deployment (CI/CD): Automating build, testing, and deployment 
+pipelines using GitHub Actions, Travis CI or other similar services.
 
-Infrastructure & Automation: Ensuring repeatable deployments, automated testing, and system monitoring to 
+3. Infrastructure & Automation: Ensuring repeatable deployments, automated testing, and system monitoring to 
 minimize human error.
 
-Collaboration Culture: Driving teamwork via code reviews, pull request workflows, and clear project documentation.
+4. Collaboration Culture: Driving teamwork via code reviews, pull request workflows, and clear project documentation.
