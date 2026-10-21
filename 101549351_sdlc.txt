@@ -1,0 +1,4 @@
+SDLC stands for Software Development Life Cycle. It is a process for planning and creating software
+DevOps is important because it helps teams deliver software faster and with fewer bugs.
+The phases include Planning, Development, Testing, and Deployment.
+Update. 
