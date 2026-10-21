@@ -1,0 +1,4 @@
+COMP 3104 is a course about DevOps. It teaches us how to use Git and GitHub
+CI/CD stands for Continuous Integration and Continuous Deployment
+Version control helps teams work on the same code without overwriting each other's changes
+This is a great course.
